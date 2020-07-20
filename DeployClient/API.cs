@@ -16,7 +16,7 @@ namespace DeployClient
 
         private static HttpClient BuildClient()
         {
-            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+            ServicePointManager.SecurityProtocol |= SecurityProtocolType.Tls12;
 
             HttpClient client = new HttpClient()
             {
