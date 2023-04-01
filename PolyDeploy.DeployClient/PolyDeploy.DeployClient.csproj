@@ -37,7 +37,7 @@
 		</PackageReference>
 		<PackageReference Include="Spectre.Console.Cli" Version="0.46.0" />
 		<PackageReference Include="Spectre.Console.Registrars.Microsoft-Di" Version="0.2.0" />
-		<PackageReference Include="System.IO.Abstractions" Version="19.2.1" />
+		<PackageReference Include="System.IO.Abstractions" Version="19.2.4" />
 	</ItemGroup>
 
 	<ItemGroup>
